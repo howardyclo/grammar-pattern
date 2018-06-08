@@ -48,8 +48,8 @@ def main(args):
             - key1: source grammar pattern (str)
             - key2: target grammar pattern (str)
             - key3: headword in uppercase (str)
-            - value: list of tuple (source ngram, target ngram) (list)
-            - Note: value may contain several identical tuples, you can filter by `set()`.
+            - key4: (source ngram, target ngram) (tuple)
+            - value: count
     """
         
     # parallel_pat_dict[src_pat][tgt_pat][head]: count
