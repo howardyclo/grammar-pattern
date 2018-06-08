@@ -126,6 +126,7 @@ python compute_grampat.py \
 ```
 <br>
 The data structure of the output file `data/dataset_name.grampat.dill` is a `defaultdict` containing two keys:
+
 - `"count_dict"` (3-nested dict):
     - key1: source grammar pattern (str)
     - key2: target grammar pattern (str)
