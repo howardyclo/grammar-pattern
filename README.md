@@ -7,7 +7,7 @@ This repo offers several python (3.x) modules for grammatical analysis:
 We currently support grammar patterns for verb, noun and adjective headwords. See what grammar pattern is [in Wikipedia](https://en.wikipedia.org/wiki/Pattern_grammar).
 
 ## Setup
-Before start using modules, please install the python dependencies (mainly [spaCy](https://spacy.io/) and [NLTK](https://www.nltk.org/)):
+Before starting to use modules, please install the python dependencies (mainly [spaCy](https://spacy.io/) and [NLTK](https://www.nltk.org/)):
 ```sh
 $ pip install -r requirements.txt
 
