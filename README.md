@@ -125,7 +125,7 @@ python compute_grampat.py \
 -batch_size 1024
 ```
 
-The data structure of the output file `data/dataset_name.grampat.dill` is a `defaultdict` containing two keys:
+The data structure of the output file `data/dataset_name.grampat.dill` is a Python Dictionary containing two keys:
 
 - `"count_dict"` (3-nested dict):
     - key1: source grammar pattern (str)
