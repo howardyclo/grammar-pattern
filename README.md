@@ -113,7 +113,7 @@ print(parallel_pats)
 `align_parallel_pats()` returns a list of aligned grammar patterns.
 
 ## What's Next?
-Now that you've completed the *Example Usage* guide, we can use these modules to count grammar patterns for large English monolingual corpora and parallel grammatical error correction corpora (EFCAMDAT, LANG-8, CLC-FCE). We released a python script for doing this (support multi-processing):
+Now that you've completed the *Example Usage* guide, we can use these modules to count grammar patterns for large English monolingual corpora (BNC) and parallel grammatical error correction corpora (EFCAMDAT, LANG-8, CLC-FCE). We released a python script for doing this (support multi-processing):
 <br><br>
 ```sh
 python compute_grampat.py \
@@ -133,11 +133,11 @@ The data structure of the output file `data/dataset_name.grampat.dill` is a `def
     - key3: headword in uppercase (str)
     - value: count
     - Note: We also save the instances that source grammar pattern is same as target grammar pattern.
-- `"ngram_dict"` (3-nested dict):
+- `"ngram_dict"` (4-nested dict):
     - key1: source grammar pattern (str)
     - key2: target grammar pattern (str)
     - key3: headword in uppercase (str)
-    - value: list of tuple (source ngram, target ngram) (list)
-    - Note: value may contain several identical tuples, you can filter by `set()`.
+    - key4: (source ngram, target ngram) (tuple)
+    - value: count 
 
 We released grammar pattern results for [BNC, EFCAMDAT, LANG-8 and CLC-FCE](https://goo.gl/aKR7Hr). It can be used for grammatical analysis (See `query_grampat.py` for example usage).
