@@ -124,7 +124,7 @@ python compute_grampat.py \
 -n_jobs 4 \
 -batch_size 1024
 ```
-<br>
+
 The data structure of the output file `data/dataset_name.grampat.dill` is a `defaultdict` containing two keys:
 
 - `"count_dict"` (3-nested dict):
