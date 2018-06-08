@@ -116,7 +116,7 @@ print(parallel_pats)
 Now that you've completed the *Example Usages* guide, we can use these modules to count grammar patterns for large English monolingual corpora (BNC) and parallel grammatical error correction corpora (EFCAMDAT, LANG-8, CLC-FCE). We released a python script for doing this (support multi-processing):
 <br><br>
 ```sh
-python compute_grampat.py \
+$ python compute_grampat.py \
 -in_src_path data/src.tree.txt \
 -in_tgt_path data/tgt.tree.txt \
 -out_path data \
