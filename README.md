@@ -113,7 +113,7 @@ print(parallel_pats)
 `align_parallel_pats()` returns a list of aligned grammar patterns.
 
 ## What's Next?
-Now that you've completed the *Example Usage* guide, we can use these modules to count grammar patterns for large English monolingual corpora (BNC) and parallel grammatical error correction corpora (EFCAMDAT, LANG-8, CLC-FCE). We released a python script for doing this (support multi-processing):
+Now that you've completed the *Example Usages* guide, we can use these modules to count grammar patterns for large English monolingual corpora (BNC) and parallel grammatical error correction corpora (EFCAMDAT, LANG-8, CLC-FCE). We released a python script for doing this (support multi-processing):
 <br><br>
 ```sh
 python compute_grampat.py \
