@@ -88,7 +88,7 @@ print(tgt_pats)
 ```
 `sent_to_pats()` returns a list of tuples, each tuple contains:
 - Headword
-- Grammar pattern (POS tag in Uppercase corresponds to the headword.
+- Grammar pattern (POS tag in uppercase corresponds to the headword).
 - N-gram that matches grammar pattern
 - Start and end positions of n-gram in chunked sentence.
 
