@@ -141,3 +141,20 @@ The data structure of the output file `data/dataset_name.grampat.dill` is a Pyth
     - value: count 
 
 We released grammar pattern results for [BNC, EFCAMDAT, LANG-8 and CLC-FCE](https://goo.gl/aKR7Hr). It can be used for grammatical analysis (See `query_grampat.py` for example usage).
+
+## Citation
+If you find the repo helpful for your research, you can cite it with the following BibTeX:
+```
+@software{yi_chen_howard_lo_2020_3611412,
+  author       = {Yi-Chen Howard Lo},
+  title        = {howardyclo/grammar-pattern},
+  month        = jan,
+  year         = 2020,
+  publisher    = {Zenodo},
+  version      = {v1.0.0},
+  doi          = {10.5281/zenodo.3611412},
+  url          = {https://doi.org/10.5281/zenodo.3611412}
+}
+```
+or clicking this badge [![DOI](https://zenodo.org/badge/136430580.svg)](https://zenodo.org/badge/latestdoi/136430580)
+to export any format you like (on the right hand side of the website).
